@@ -20,33 +20,6 @@
 #include <cstdio>
 #include <vector>
 
-
-/** --------------------------------------------------------------------
- ** Version functions.
- ** ----------------------------------------------------------------- */
-
-const char *
-cre2_version_string (void)
-{
-  return cre2_VERSION_INTERFACE_STRING;
-}
-int
-cre2_version_interface_current (void)
-{
-  return cre2_VERSION_INTERFACE_CURRENT;
-}
-int
-cre2_version_interface_revision (void)
-{
-  return cre2_VERSION_INTERFACE_REVISION;
-}
-int
-cre2_version_interface_age (void)
-{
-  return cre2_VERSION_INTERFACE_AGE;
-}
-
-
 /** --------------------------------------------------------------------
  ** Options objects.
  ** ----------------------------------------------------------------- */
