@@ -7,4 +7,4 @@ add_library(cre2 STATIC
         )
 
 target_include_directories(cre2 PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../re2/)
-
+target_compile_options(cre2 PRIVATE -fPIC)
